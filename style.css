@@ -1,0 +1,90 @@
+body,
+header,
+main,
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'bold'; 
+  background-color: pink;
+  color: #333;
+}
+
+header {
+  background-color: rgb(226, 209, 212);
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+header h1 {
+  margin: 20px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+main p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  margin: 5px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 20px;
+  border-radius: 100px;
+  font-weight: bold;
+  font-family: 'times new roman'; 
+  border: 1px solid dodgerblue;
+  background: rgb(235, 156, 208);
+  color: #fff;
+  cursor: pointer;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+span {
+  background: #2fd5ff;
+  height: 100%;
+  width: 0%;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+button:hover span {
+  height: 100%;
+  width: 100%;
+}
+
+button:hover {
+  border: none;
+}
+
+main img {
+  max-width: 95%;
+  height: 95%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: tomato;
+}
