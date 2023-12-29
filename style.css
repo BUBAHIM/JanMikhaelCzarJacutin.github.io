@@ -1,22 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Harlow+Solid&family=Poppins:wght@400;500;600&family=Raleway:wght@500;600&family=Rita&display=swap');
 
-:root {
- --primary-color: #5b1166;
- --primary-color-hover: #8e239b; 
- --secondary-color: #ffb3e6; /
+body,
+header,
+main,
+footer {
+ margin: 0;
+ padding: 0;
 }
 
 body {
- font-family: 'Montserrat', sans-serif; 
- background-color: white;
+ font-family: 'Poppins', sans-serif; 
+ background-color: pink;
  color: #333;
 }
 
 header {
- background-color: #5b1166; 
+ background-color: rgb(226, 209, 212);
  color: #fff;
  text-align: center;
  padding: 30px;
+}
+
+header h1 {
+ margin: 20px;
+ font-family: 'Harlow Solid', sans-serif;
+}
+
+main {
+ padding: 20px;
+ text-align: center;
+ background-repeat: no-repeat;
+}
+
+main p {
+ font-size: 20px;
+ margin-bottom: 20px;
+ font-family: 'Raleway', sans-serif;
 }
 
 button {
@@ -28,28 +47,35 @@ button {
  margin: 20px 20px;
  border-radius: 100px;
  font-weight: bold;
- font-family: 'Montserrat', sans-serif; 
- border: 1px solid var(--primary-color);
- background: var(--primary-color);
+ font-family: 'Rita', sans-serif; 
+ border: 1px solid dodgerblue;
+ background: rgb(235, 156, 208);
  color: #fff;
  cursor: pointer;
  justify-content: center;
  position: relative;
  overflow: hidden;
+}
+
+span {
+ background: #2fd5ff;
+ height: 100%;
+ width: 0%;
+ border-radius: 25px;
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ z-index: -1;
  transition: 0.5s;
 }
 
-button:hover {
- background: var(--primary-color-hover);
- border: 1px solid var(--primary-color-hover);
- color: #fff;
+button:hover span {
+ height: 100%;
+ width: 100%;
 }
 
-main {
- padding: 20px;
- text-align: center;
- background-repeat: no-repeat;
- background-color: var(--secondary-color);
+button:hover {
+ border: none;
 }
 
 main img {
@@ -57,13 +83,13 @@ main img {
  height: 95%;
  border-radius: 5px;
  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
- border: 2px solid #333;
 }
 
 footer {
  width: 100%;
  text-align: center;
  padding: 10px 0;
- background-color: #5b1166; 
+ background-color: #333;
  color: tomato;
+ font-family: 'Raleway', sans-serif;
 }
