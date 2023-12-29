@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
- --primary-color: violete;
- --primary-color-hover: light purple; 
- --secondary-color: light pink;
+ --primary-color: violet;
+ --primary-color-hover: pink; 
+ --secondary-color: pink;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 }
 
 header {
- background-color: daek purple; 
+ background-color: violet; 
  color: #fff;
  text-align: center;
  padding: 30px;
